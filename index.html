@@ -4,12 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment-3</title>
+    <script src="https://kit.fontawesome.com/9b701099f8.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
+<style>
+    .font-adlam{
+        font-family: "ADLaM Display", serif;
+    }
+    .font-sora{font-family: "Sora", serif;}
+</style>
 </head>
 <body>
     <header>
-        <nav></nav>
+        <nav><div class="navbar font-sora bg-red-50 w-full">
+            <div class="navbar-start flex lg:ml-36">
+                <div>
+                    <img src="c1-assets/logo-header.png" alt="">
+                </div>
+              <a class="hidden md:block p-2 text-xl font-bold">Browse<span class=" text-[#FFDC26] ">4</span>Pets</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a>Find a pet</a></li>
+                <li><a>Breeds</a></li>
+                <li><a>Contact us</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end lg:mr-36">
+                <div class="hidden md:block">
+                    <i class="fa-regular fa-bell p-1"></i><i class="fa-solid fa-magnifying-glass"></i>
+                <a class=" text-black btn border-yellow-300 bg-white">Login</a>
+              <a class="btn btn-warning">Register</a>
+            </div>
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h8m-8 6h16" />
+                  </svg>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                  <li><a>Find a pet</a></li>
+                  <li>
+                    <a>Breeds</a>
+                  </li>
+                  <li><a>Contact us</a></li>
+                </ul>
+              </div>
+            </div>
+          </div></nav>
     </header>
+    <main class=""></main>
 </body>
 </html>
